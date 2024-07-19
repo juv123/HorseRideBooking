@@ -1,0 +1,158 @@
+body {
+  margin: 40px;;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F7F7;
+  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home{
+display:flex;
+flex:wrap;
+min-height: 100vh;
+padding: 30px 60px;
+margin-top:0;
+margin-right:45px;
+margin-left:45px;
+}
+.horse-name {
+  margin:15px;
+  font-family: 'Georgia', serif; /* or any other font you prefer */
+  font-size: 18px;
+  font-weight: 600;
+  color: #4B2E83; /* Dark Purple or any color that fits your design */
+}
+
+.submit{
+  font-size: 16px;
+  background-color: #a0c800;
+  padding: 4px;
+  margin-left:7px;
+  right: 30px;
+  color: white;
+  border-radius: 10px;
+  width:100px;
+  height:25px;
+  margin-top:30px;
+  margin-bottom:30px;
+  cursor:pointer;
+  border:none;
+}
+.submit:hover {
+  background-color: #218838; /*Darker Green color */
+  }
+.submitbackBtns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
+
+.btnBack{
+padding: 4px;
+background-color: #007bff; /* Blue color */
+color: white;
+border: none;
+border-radius:10px;
+cursor: pointer;
+width:100px;
+height:25px;
+margin-top:30px;
+margin-bottom:30px;
+font-size: 16px;
+transition: background-color 0.3s;
+}
+
+.btnBack:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+.bookingFrm{
+ position:absolute;
+ padding:20px;
+ width:full;
+ background-color:black;
+ margin-bottom:36;
+ right:0;
+ left:0;
+ top:0;
+ color:white;
+ opacity:8;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.booking-form ::placeholder {
+  color: #B0B0B0; /* Light Gray */
+}
+.errMsg{
+  color:red;
+}
+
+h2{
+  font:bold;
+  font-size:xl;
+  color:red;
+  }
+  .heading {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align: center;
+    color:orange;
+    background-color:white;
+  }
+ 
+  .heading:hover{
+    background-color: green; 
+    transform: scale(1.1)
+  }
+  
+  .gallery-container {
+    text-align: center;
+    margin: 30px 60px;
+  }
+.select{
+ background-color:slate;
+  margin:10px 10px 10px 10px;
+  padding-bottom:10px;
+}
+select{
+  height:25px;
+  text-align:center;
+  background-color:slate;
+}
+label{
+  color: #FFFFFF; /* White */
+  background-color: #1A1A1A; /* Dark Gray for input backgrounds */
+  border: 1px solid #FFFFFF; /* White borders for inputs */
+  margin:10px;
+  
+}
+.inputs{
+  width:full;
+  background-color:slate;
+  padding:1px;
+  border: 1px solid #FFFFFF; /* White borders for inputs */
+  margin:5px;
+ }
+
+
+.icon_ride{
+  width:80px;
+  margin-top:30px;
+}
+  .dtp{
+  height:28px;
+  width:95%;
+ margin-left:12px;
+ margin-top:20px;
+ text-align:center;
+  background-color:slate;
+ }
+ 
